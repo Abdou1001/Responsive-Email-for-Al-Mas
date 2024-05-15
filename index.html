@@ -1,0 +1,719 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0;">
+    <meta name="format-detection" content="telephone=no" />
+    <title>Responsiv Email template</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap');
+        *
+        {
+            padding: 0px;
+            margin: 0px;
+            border: 0px;
+            border-spacing: 0px;
+        }
+        body{
+            font-family: "Bitter", sans-serif;
+            min-width: 100%;
+            width: 100% !important;
+            height: 100% !important;
+            background-color: #f4f1eb;
+            text-align: center;
+        }
+        table,
+        td {
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+            border-collapse: collapse !important;
+            border-spacing: 0;
+        }
+        table{
+            width: 100%;
+        }
+        button{
+            background: transparent;
+        }
+
+        img {
+            border: 0;
+            line-height: 100%;
+            outline: none;
+            text-decoration: none;
+            -ms-interpolation-mode: bicubic;
+        }
+        .btn-shop a{
+            color: white;
+            font-size: 15px;
+            padding: 10px 20px;
+            background-color: #675751;
+            text-decoration: none;
+            font-weight: 400;
+        }
+        .continer {
+            max-width: 600px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        @media (max-width: 617px) {
+            .continer {
+                max-width: 320px;
+            }
+            .res-phon {
+                max-width: 100% !important;
+            }
+            .bestsellers .col {
+                max-width: calc(320px / 2 ) !important;
+            }
+            .delivery .col {
+                max-width: 320px !important;
+            }
+        }
+        .header {
+            background-image: url(https://d1oco4z2z1fhwp.cloudfront.net/templates/default/7016/mothersday_bg.png);
+            height: 150dvb;
+            min-width: 100%;
+        }
+        .header .logo img {
+            max-width: 100%;
+        }
+        .header .text {
+            color: #675751;
+            height: 100px;
+        }
+        .header .text h5 {
+            font-size: 30px;
+            font-weight: 400;
+            margin-bottom: 10px;
+        }
+        .header .text h1 {
+            font-size: 100px;
+            font-weight: 400;
+        }
+        .header .text p {
+            max-width: 500px;
+            font-style: italic;
+            margin-top: 7px;
+            line-height: 1.5;
+        }
+        .header .btn {
+            text-align: center;
+        }
+        .header .btn td {
+            display: block;
+            margin-top: 50px;
+        }
+        .header .btn td a {
+            color: #675751;
+            text-decoration: none;
+            padding: 10px 20px;
+            border: 1px solid #675751;
+            font-weight: 200;
+        }
+        .header .ring-img img {
+            width: 350px;
+        }
+
+        .collection {
+            margin: 40px 0px;
+        }
+        .collection h2 {
+            color: #d56533;
+            font-style: italic;
+            font-size: 30px;
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+        .collection p {
+            color: #393d47;
+            font-style: italic;
+            max-width: 500px;
+        }
+
+        .ear-rings {
+            background-image: url("https://d1oco4z2z1fhwp.cloudfront.net/templates/default/7016/collection-background-20.png");
+            height: 400px;
+            margin-bottom: 40px;
+        }
+        .ear-rings .two-col .col {
+            text-align: center;
+            display: inline-block;
+            max-width: 298px;
+        }
+        .ear-rings .two-col img{
+            max-width: 100%;
+            margin-bottom: 30px;
+        }
+        .ear-rings .two-col .col h6{
+            margin: 100px 0px 25px;
+            color: #d56533;
+            font-size: 15px;
+            font-weight: 500;
+        }
+        .ear-rings .two-col .col h3 {
+            margin: 0px 0px 20px;
+            font-size: 27px;
+            color: #393d47;
+            font-weight: 500;
+            font-style: italic;
+        }
+        .ear-rings .two-col .col p {
+            margin: 0px 0px 40px;
+            color: #393d47;
+            font-style: italic;
+            padding: 0px 7px;
+        }
+
+        .bracelet {
+            background-image: url(https://d1oco4z2z1fhwp.cloudfront.net/templates/default/7016/collection-background-20.png);
+            height: 400px;
+            margin-bottom: 40px;
+        }
+        .bracelet .col{
+            display: inline-block;
+            text-align: center;
+            max-width: 298px;
+        }
+        .bracelet .col .text{
+            display: inline-block;
+            margin-bottom: 50px;
+        }
+        .bracelet .col h6{
+            margin: 100px 0px 25px;
+            color: #d56533;
+            font-size: 15px;
+            font-weight: 500;
+        }
+        .bracelet .two-col .col h3 {
+            margin: 0px 0px 20px;
+            font-size: 27px;
+            color: #393d47;
+            font-weight: 500;
+            font-style: italic;
+        }
+        .bracelet .two-col .col p {
+            margin: 0px 0px 40px;
+            color: #393d47;
+            font-style: italic;
+            padding: 0px 7px;
+        }
+        .bracelet .col img{
+            max-width: 100%;
+            margin-bottom: 30px;
+        }
+
+        .necklace {
+            background-image: url(https://d1oco4z2z1fhwp.cloudfront.net/templates/default/7016/collection-background-20.png);
+            height: 400px;
+        }
+        .necklace .col{
+            display: inline-block;
+            text-align: center;
+            max-width: 298px;
+        }
+        .necklace .col h6{
+            margin: 100px 0px 25px;
+            color: #d56533;
+            font-size: 15px;
+            font-weight: 500;
+        }
+        .necklace .two-col .col h3 {
+            margin: 0px 0px 20px;
+            font-size: 27px;
+            color: #393d47;
+            font-weight: 500;
+            font-style: italic;
+        }
+        .necklace .two-col .col p {
+            margin: 0px 0px 50px;
+            color: #393d47;
+            font-style: italic;
+            padding: 0px 7px;
+        }
+        .necklace .two-col .col .btn-shop {
+            margin-bottom: 25px;
+        }
+        .necklace .col img {
+            max-width: 100%;
+            margin-bottom: 30px;
+        }
+
+        .bestsellers {
+            margin: 70px 0px 30px;
+        }
+        .bestsellers .title h2 {
+            color: #d56533;
+            text-align: center;
+            font-size: 30px;
+            font-style: italic;
+            margin-bottom: 40px;
+            font-weight: 500;
+        }
+        .bestsellers .col {
+            max-width: calc(600px / 4 - 9px);
+            display: inline-block;
+            margin: 0px 3px 10px;
+            text-align: center;
+        }
+        .bestsellers .col img {
+            max-width: 95%;
+            margin-bottom: 20px;
+        }
+        .bestsellers .col .info h4 {
+            font-weight: 400;
+        }
+        .bestsellers .col .info p {
+            font-weight: 600;
+            margin-bottom: 9px;
+        }
+        .bestsellers .col .reviews img{
+            max-width: 19px;
+            margin: 0px -2px 5px;
+        }
+        .bestsellers .col .reviews span{
+            font-weight: 400;
+            font-size: 15px;
+        }
+        .bestsellers .col .btn button {
+            margin-top: 30px;
+        }
+        .bestsellers .col .btn button a{
+            padding: 5px 17px;
+            font-size: 14px;
+        }
+        
+        .delivery {
+            background-color: #e1daca;
+            text-align: center;
+            display: inline-block;
+            margin-top: 20px;
+            padding: 30px 0px;
+        }
+        .delivery .text{
+            display: inline-block;
+            margin-bottom: 30px;
+        }
+        .delivery .text h2{
+            color: #d56533;
+            font-size: 35px;
+            font-style: italic;
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+        .delivery .text p {
+            color: #393d47;
+        }
+        .delivery .col {
+            display: inline-block;
+            max-width: calc(600px / 3 - 10px);
+            text-align: center;
+            margin: 0px 3px;
+        }
+        .delivery .col h4{
+            margin: 15px 0px;
+            color: #393d47;
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        .footer {
+            background-color: #675751;
+            color: #cfceca;
+            height: 60px;
+        }
+        .footer .text {
+            text-align: center;
+            height: 70px;
+        }
+        .footer .text a {
+            color: #d3c9af;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body topmargin="0" rightmargin="0" bottommargin="0" leftmargin="0" marginwidth="0" marginheight="0" width="100%">
+    <!-- ==== Start main container ==== -->
+    <table class="continer" align="center">
+        <tr>
+            <td>
+                <!-- ==== Start  Header Section ==== -->
+                <table class="header"  align="center" border="0" cellpadding="0" cellspacing="0">
+                    <tr class="logo" align="center" valign="top">
+                        <td  style="height: 150px;">
+                            <a href='https://abdou1001.github.io/portfolio/' target='_blank'><img
+                                src='https://i.postimg.cc/kXFDnDfH/pngwing-com.png' border='0'
+                                alt='logo-img' title="logo" style="width: 100px;" />
+                            </a>
+                        </td>
+                    </tr>
+                    <tr class="text">
+                        <td valign="top" align="center">
+                            <h5>GIFTS FOR</h5>
+                            <h1>MOM</h1>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                                purus commodo magnis habitasse est in rhoncus libero ut.
+                            </p>
+                        </td>
+                    </tr>
+                    <tr class="btn">
+                        <td>
+                        <button><a href="https://abdou1001.github.io/portfolio/" target='_blank'>VIEW THE COLLECTION</a></button>
+                        </td>
+                    </tr>
+                    <tr class="ring-img" align="center">
+                        <td>
+                            <img src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/7016/mothersday_rings.png" alt="img">
+                        </td>
+                    </tr>
+                </table>
+                <!-- ==== End  Header  Section ==== -->
+                <!-- ==== Start  Collection  Section ==== -->
+                <table class="collection" align="center" border="0" cellpadding="0" cellspacing="0">
+                    <tr align="center">
+                        <td>
+                            <h2>Mother's Collection</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam purus commodo magnis habitasse est in rhoncus libero
+                                ut. Aenean viverra fermentum, volutpat, neque justo
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+                <!-- ==== End  Collection  Section ==== -->
+                <!-- ==== Start  Ear rings  Section ==== -->
+                <table class="ear-rings" align="center" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td>
+                            <table class="two-col">
+                                <tr>
+                                    <td>
+                                        <table class="col res-phon" align="center">
+                                            <tr>
+                                                <td class="img" >
+                                                    <img src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/7016/collection-image-20.png" alt="img">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <table class="col res-phon" align="center" valign= "top">
+                                            <tr>
+                                                <td class="text">
+                                                    <h6>EARRINGS</h6>
+                                                    <h3>High Jewellery <br> Collection habitasse.</h3>
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam purus commodo magnis habitasse est in rhoncus libero
+                                                        ut. Aenean viverra fermentum, volutpat.
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="btn-shop">
+                                                    <button><a href="https://abdou1001.github.io/portfolio/" target='_blank'>SHOP NOW</a></button>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <!-- ==== End  Ear rings  Section ==== -->
+                <!-- ==== Start  Bracelet  Section ==== -->
+                <table class="bracelet" align="center" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td>
+                            <table class="two-col">
+                                <tr>
+                                    <td>
+                                        <table class="col res-phon">
+                                            <tr>
+                                                <td class="text">
+                                                    <h6>RINGS & BRACELET</h6>
+                                                    <h3>Jewellery Collection fermmentum.</h3>
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam purus commodo magnis habitasse est in rhoncus
+                                                        libero
+                                                        ut. Aenean viverra fermentum,
+                                                    </p>
+                                                    <button class="btn-shop"><a href="https://abdou1001.github.io/portfolio/" target='_blank'>SHOP NOW</a></button>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <table class="col res-phon">
+                                            <tr>
+                                                <td class="img">
+                                                    <img src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/7016/collection-image-10.png" alt="img">                                                    
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <!-- <td class="col text">
+                                    </td>
+                                    <tr class="col res-phon">
+                                    </tr> -->
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <!-- ==== End  Bracelet  Section ==== -->
+                <!-- ==== Start  Necklace  Section ==== -->
+                <table class="necklace" align="center" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td>
+                            <table class="two-col">
+                                <tr>
+                                    <td>
+                                        <table class="col res-phon">
+                                            <tr>
+                                                <td class="img">
+                                                    <img src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/7016/collection-image-30.png" alt="img">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <table class="col res-phon">
+                                            <tr>
+                                                <td class="text">
+                                                    <h6>NECKLACE</h6>
+                                                    <h3>Collection Aliquam purus commodo.</h3>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam purus commodo magnis habitasse est in rhoncus libero
+                                                    ut. Aenean viverra fermentum, volutpat, neque justo.</p>
+                                                    <button class="btn-shop"><a href="https://abdou1001.github.io/portfolio/" target='_blank'>SHOP NEW</a></button>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <!-- ==== End  Necklace  Section ==== -->
+                <!-- ==== Start  Bestsellers  Section ==== -->
+                <table class="bestsellers" align="center" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td>
+                            <table class="title">
+                                <tr>
+                                    <td>
+                                        <h2>The Bestsellers</h2>
+                                    </td>
+                                </tr>
+                            </table>
+                            <table class="four-col">
+                                <tr>
+                                    <td>
+                                        <table class="col">
+                                            <tr class="img">
+                                                <td>
+                                                    <img src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/7016/jewell-image-10.png" alt="img">
+                                                </td>
+                                            </tr>
+                                            <tr class="info">
+                                                <td>
+                                                    <h4>Necklace Lorem</h4>
+                                                    <p>$240.00</p>
+                                                </td>
+                                            </tr>
+                                            <tr class="reviews">
+                                                <td>
+                                                    <p class="starts">
+                                                        <span><img src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/7016/star-on-icon.png" alt="img"></span>
+                                                        <span><img src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/7016/star-on-icon.png" alt="img"></span>
+                                                        <span><img src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/7016/star-on-icon.png" alt="img"></span>
+                                                        <span><img src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/7016/star-on-icon.png" alt="img"></span>
+                                                        <span><img src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/7016/star-off-icon.png" alt="img"></span>
+                                                    </p>
+                                                    <span>186 Reviews</span>
+                                                </td>
+                                            </tr>
+                                            <tr class="btn">
+                                                <td class="btn-shop">
+                                                    <button><a href="https://abdou1001.github.io/portfolio/" target='_blank'>SHOP NOW</a></button>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <table class="col">
+                                            <tr class="img">
+                                                <td>
+                                                    <img src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/7016/jewell-image-20.png" alt="img">
+                                                </td>
+                                            </tr>
+                                            <tr class="info">
+                                                <td>
+                                                    <h4>Ring Ipsum</h4>
+                                                    <p>$125.00</p>
+                                                </td>
+                                            </tr>
+                                            <tr class="reviews">
+                                                <td>
+                                                    <p class="starts">
+                                                        <span><img src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/7016/star-on-icon.png" alt="img"></span>
+                                                        <span><img src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/7016/star-on-icon.png" alt="img"></span>
+                                                        <span><img src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/7016/star-on-icon.png" alt="img"></span>
+                                                        <span><img src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/7016/star-on-icon.png" alt="img"></span>
+                                                        <span><img src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/7016/star-off-icon.png" alt="img"></span>
+                                                    </p>
+                                                    <span>243 Reviews</span>
+                                                </td>
+                                            </tr>
+                                            <tr class="btn">
+                                                <td class="btn-shop">
+                                                    <button><a href="https://abdou1001.github.io/portfolio/" target='_blank'>SHOP NOW</a></button>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <table class="col">
+                                            <tr class="img">
+                                                <td>
+                                                    <img src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/7016/jewell-image-40.png" alt="img">
+                                                </td>
+                                            </tr>
+                                            <tr class="info">
+                                                <td>
+                                                    <h4>Earring Lorem</h4>
+                                                    <p>$350.00</p>
+                                                </td>
+                                            </tr>
+                                            <tr class="reviews">
+                                                <td>
+                                                    <p class="starts">
+                                                        <span><img src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/7016/star-on-icon.png" alt="img"></span>
+                                                        <span><img src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/7016/star-on-icon.png" alt="img"></span>
+                                                        <span><img src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/7016/star-on-icon.png" alt="img"></span>
+                                                        <span><img src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/7016/star-on-icon.png" alt="img"></span>
+                                                        <span><img src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/7016/star-off-icon.png" alt="img"></span>
+                                                    </p>
+                                                    <span>186 Reviews</span>
+                                                </td>
+                                            </tr>
+                                            <tr class="btn">
+                                                <td class="btn-shop">
+                                                    <button><a href="https://abdou1001.github.io/portfolio/" target='_blank'>SHOP NOW</a></button>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <table class="col">
+                                            <tr class="img">
+                                                <td>
+                                                    <img src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/7016/jewell-image-30.png" alt="img">
+                                                </td>
+                                            </tr>
+                                            <tr class="info">
+                                                <td>
+                                                    <h4>Earrings Amet</h4>
+                                                    <p>$220.00</p>
+                                                </td>
+                                            </tr>
+                                            <tr class="reviews">
+                                                <td>
+                                                    <p class="starts">
+                                                        <span><img src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/7016/star-on-icon.png" alt="img"></span>
+                                                        <span><img src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/7016/star-on-icon.png" alt="img"></span>
+                                                        <span><img src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/7016/star-on-icon.png" alt="img"></span>
+                                                        <span><img src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/7016/star-on-icon.png" alt="img"></span>
+                                                        <span><img src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/7016/star-off-icon.png" alt="img"></span>
+                                                    </p>
+                                                    <span>615 Reviews</span>
+                                                </td>
+                                            </tr>
+                                            <tr class="btn">
+                                                <td class="btn-shop">
+                                                    <button><a href="https://abdou1001.github.io/portfolio/" target='_blank'>SHOP NOW</a></button>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <!-- ==== End  Bestsellers  Section ==== -->
+                <!-- ==== Start  Delivery  Section ==== -->
+                <table class="delivery" align="center" border="0" cellpadding="0" cellspacing="0" >
+                    <tr class="text">
+                        <td >
+                            <h2>Delivery</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam purus commodo magnis rhoncus libero</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        <table class="three-col">
+                            <tr>
+                                <td>
+                                <table class="col ">
+                                    <tr class="img">
+                                        <td>
+                                        <img src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/7016/delivery-icon-20.png" alt="img">
+                                        </td>
+                                    </tr>
+                                    <tr class="text">
+                                        <td>
+                                            <h4>GIVEAWAYS</h4>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            </p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table class="col">
+                                    <tr class="img">
+                                        <td>
+                                        <img src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/7016/delivery-icon-10.png" alt="img">
+                                        </td>
+                                    </tr>
+                                    <tr class="text">
+                                        <td>
+                                            <h4>FREE SHIPPING</h4>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            </p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table class="col">
+                                    <tr class="img">
+                                        <td>
+                                        <img src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/7016/delivery-icon-30.png" alt="img">
+                                        </td>
+                                    </tr>
+                                    <tr class="text">
+                                        <td>
+                                            <h4>CANCEL ANYTIME</h4>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            </p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                </td>
+                            </tr>
+                        </table>
+                        </td>
+                    </tr>
+                </table>
+                <!-- ==== End  Delivery  Section ==== -->
+                <!-- ==== Start  Footer  Section ==== -->
+                <table class="footer" align="center">
+                    <tr class="text" valign="center">
+                        <td>
+                            <p>2024 © All Rights Reserved</p>
+                            <p>Designed by <a href="https://abdou1001.github.io/portfolio/">Abdulrahman</a></p>
+                        </td>
+                    </tr>
+                </table>
+                <!-- ==== End  Footer  Section ==== -->
+            </td>
+        </tr>
+    </table>
+    <!-- ====  End main container ====-->
+</body>
+</html>
